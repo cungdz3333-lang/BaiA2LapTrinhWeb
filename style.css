@@ -1,0 +1,206 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.chuathanhdau {
+  width: 100%;
+  background-color: #333;
+}
+.thanhdau {
+  max-width: 1185px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+.thanhdau a {
+  text-decoration: none;
+  color: white;
+  padding: 9px 15px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.thanhdau a:first-child {
+  background-color: white;
+  color: black;
+}
+.thanhdau a:last-child {
+  position: relative;
+}
+.thanhdau a img {
+  position: absolute;
+  top: 0;
+  right: -5;
+}
+.thanhhai {
+  overflow: hidden;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+  background-color: #fff;
+}
+.thanhhai-noidung {
+  height: 30px;
+  display: flex;
+  max-width: 1185px;
+  width: 100%;
+  margin: 0 auto;
+}
+.thanhhai-noidung a img {
+  height: 32px;
+  margin-right: 20px;
+}
+.thanhhai-noidung .tinh,
+.thanhhai-noidung .theloai {
+  padding: 0px 15px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  color: #777;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-right: 5px;
+}
+.thanhhai-noidung .tinh .fa-caret-down,
+.thanhhai-noidung .theloai .fa-caret-down {
+  position: relative;
+  top: -2px;
+}
+.thanhhai-noidung .timkiem {
+  font-size: 14px;
+  padding: 7px 0px 7px 7px;
+  color: #9999a6;
+  display: flex;
+  width: 414px;
+  border: 1px solid #ddd;
+}
+.thanhhai-noidung .timkiem .loc {
+  color: #333;
+  margin-left: auto;
+  padding: 0px 10px 0px 0px;
+}
+.thanhhai-noidung .nuttimkiem {
+  width: 33.4px;
+  border: 1px solid #ddd;
+  border-left: 0;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+}
+.thanhhai-noidung .nuttimkiem .fa-magnifying-glass {
+  font-size: 14px;
+}
+.thanhhai-noidung div {
+  border-radius: 3px;
+}
+.thanhhai-noidung .chucnang {
+  width: 33.4px;
+  border: 1px solid #ddd;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thanhhai-noidung .apps {
+  width: 82px;
+  border: 1px solid #ddd;
+  margin-right: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.thanhhai-noidung .apps .fa-mobile-screen-button {
+  font-size: 12px;
+}
+.thanhhai-noidung .apps a {
+  text-decoration: none;
+  color: #333;
+}
+.thanhhai-noidung .dangnhap {
+  font-size: 14px;
+  margin-right: 5px;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thanhhai-noidung .thongbao,
+.thanhhai-noidung .them {
+  width: 30px;
+  height: 30px;
+  color: #777;
+  border-radius: 50%;
+  margin-right: 5px;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.thanhhai-noidung .ngonngu {
+  width: 30px;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thanhhai-noidung .ngonngu img {
+  width: 20px;
+}
+.tinh:hover,
+.theloai:hover,
+.apps:hover,
+.thongbao:hover,
+.them:hover,
+.ngonngu:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+.tinh:hover,
+.theloai:hover {
+  color: #333;
+}
+.loc:hover,
+.dangnhap:hover {
+  cursor: pointer;
+}
+.banner {
+  width: 100%;
+  height: 440px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner img,
+.banner .tieudebanner {
+  max-width: 675px;
+  width: 100%;
+  margin: 0 auto;
+}
+.banner .tieudebanner {
+  color: white;
+}
+.banner .tieudebannerchinh,
+.banner .tieudebannerphu {
+  display: flex;
+  justify-content: center;
+}
+.banner .tieudebannerchinh {
+  height: 18px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.banner .tieudebannerphu {
+  height: 24px;
+  font-size: 14px;
+  margin-top: 5px;
+}
